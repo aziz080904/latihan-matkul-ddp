@@ -23,8 +23,6 @@ print(hasil)
 def print_pattern(baris):
     for i in range(1, baris + 1):
         print('*' * i)
-# Meminta input dari pengguna
 nomor_baris = int(input("Masukkan jumlah baris: "))
-# Memanggil fungsi untuk mencetak pola
 print_pattern(nomor_baris)
 
